@@ -9,5 +9,9 @@ namespace prep.collections
     public Genre genre { get; set; }
     public int rating { get; set; }
     public DateTime date_published { get; set; }
+      public int CompareTo(Movie other)
+      {
+          throw new NotImplementedException();
+      }
   }
 }
