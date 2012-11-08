@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace prep.code_kata
+namespace code_kata
 {
     public class UnixTimestampConverter
     {
